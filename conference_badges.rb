@@ -31,8 +31,8 @@ end
 def printer(attendees)
   badges = batch_badge_creator
   rooms = assign_rooms
-  attendees.each do |something_here|
-    #The things that must me done?
+  
+  
   end
  #Return the variables?
 end
