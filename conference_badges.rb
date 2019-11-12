@@ -30,11 +30,10 @@ end
 
 
 def printer(attendees)
-  badges = batch_badge_creator
-  rooms = assign_rooms
+  badges = batch_badge_creator(attendees)
+  rooms = assign_rooms(attendees)
   
-  batch_badge_creator(attendees)
-  assign_rooms(attendees)
+ 
   
  
   
