@@ -33,11 +33,11 @@ def printer(attendees)
   badges = batch_badge_creator(attendees)
   rooms = assign_rooms(attendees)
   
-  badges.each do |list1|
-  puts list1
+  badges.each do |badge|
+  puts badge.first
   end
-  rooms.each do |that|
-  puts that
+  rooms.each do |room|
+  puts room.first
   end
 
   
