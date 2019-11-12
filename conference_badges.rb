@@ -31,7 +31,5 @@ end
 def printer(badges_and_room_assignments)
   
   
-    
-  end
   
 end
