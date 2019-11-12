@@ -32,7 +32,6 @@ def printer(attendees)
   badges = batch_badge_creator
   rooms = assign_rooms
   
+  batch_badge_creator()
   
-  end
- #Return the variables?
 end
