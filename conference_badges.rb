@@ -40,8 +40,10 @@ def printer(attendees)
   assign_rooms(attendees)
   
   attendees.each do |name|
-  badges_  << "Hello, my name is #{name}."
-  rooms_ << "Hello, #{name}! You'll be assigned to room #{counter}!"
+    puts badges_
+    badges_  << "Hello, my name is #{name}."
+    puts rooms_
+    rooms_ << "Hello, #{name}! You'll be assigned to room #{counter}!"
   end
   
   badges
