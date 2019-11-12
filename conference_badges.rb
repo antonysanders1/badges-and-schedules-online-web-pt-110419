@@ -40,8 +40,8 @@ def printer(attendees)
   assign_rooms(attendees)
   
   attendees.each do |name|
-  batch_badge_creator  << ""
-  
+  badges_  << "Hello, my name is #{name}."
+  rooms_ << 
   end
   
   
