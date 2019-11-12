@@ -34,7 +34,7 @@ def printer(attendees)
   rooms = assign_rooms(attendees)
   
  badges.each do |this|
- puts this
+ puts this.first
  end
   
  
