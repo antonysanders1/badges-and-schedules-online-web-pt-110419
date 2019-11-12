@@ -39,8 +39,6 @@ def printer(attendees)
   rooms.each do |that|
   puts that
   end
-  
-  badges
-  rooms
+
   
 end
