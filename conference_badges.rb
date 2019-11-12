@@ -34,5 +34,5 @@ def printer(attendees)
   attendees.each do |something_here|
     #The things that must me done?
   end
- 
+ #Return the variables?
 end
